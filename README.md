@@ -2,7 +2,7 @@
 
 A set of three Python mini-projects covering procedural programming, image processing with NumPy, and data wrangling with Pandas.
 
-## 📌 Contents
+## Contents
 
 ### 1. Frozen Yogurt & Ice Cream Order System
 An interactive command-line ordering system that:
@@ -22,13 +22,13 @@ Parses a real, messily-formatted university timetable spreadsheet (`.xlsx`) — 
 
 The parser dynamically detects time-slot columns and room rows rather than hardcoding cell positions, so it adapts if rows are added/removed, and uses a relative file path so it runs on any machine after cloning the repo.
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Language:** Python 3
 - **Libraries:** `pandas`, `numpy`, `Pillow (PIL)`, `matplotlib`, `openpyxl`
 - **Environment:** Jupyter Notebook
 
-## 🗂️ Project Structure
+## Project Structure
 
 ```
 Python-Data-Analysis-Image-Processing/
@@ -38,7 +38,7 @@ Python-Data-Analysis-Image-Processing/
 └── README.md
 ```
 
-## 🚀 Running it
+## Running it
 
 ```bash
 git clone https://github.com/<your-username>/Python-Data-Analysis-Image-Processing.git
@@ -49,10 +49,10 @@ jupyter notebook data_processing_toolkit.ipynb
 
 The order system is interactive and expects console input when run cell-by-cell in Jupyter. The image processing and timetable parsing sections run end-to-end with no input required.
 
-## 📊 Timetable Parser — Notes
+## Timetable Parser — Notes
 
 The raw timetable file has a non-trivial layout: the first several rows contain a title and a degree-program legend, and the actual per-room schedule starts a few rows down with each time slot spanning multiple merged spreadsheet columns. The notebook parses this structure programmatically (detecting the header row and time-slot boundaries) rather than assuming fixed cell coordinates, so the same logic can be pointed at other sheets (Tuesday/Wednesday/Thursday) with minimal changes.
 
-## 👤 Author
+## Author
 
 Khadeejah — Data Science Student, FAST NUCES Islamabad
